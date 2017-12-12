@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 cache = redis.StrictRedis(host='redis', port=6379, db=0)
 salt = "UNIQUE_SALT"
-default_name = 'Maria Aparecida Costa-Schumacher'
+default_name = 'John Doe'
 @app.route('/', methods=['GET', 'POST'])
 def mainpage():
 
